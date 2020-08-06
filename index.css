@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
 *{
     padding:0;
     margin:0;
+    max-width: 100%;
     box-sizing:border-box;
-    border:1px solid grey;
 }
 
 html{
@@ -12,22 +14,102 @@ html{
 body{
     font-size:1.6rem;
     line-height:1.5;
-}
-
-header img{
-    display: inline-block;
-    width: 20%;
-    border-radius: 50%;
-}
-
-h1{
-    display: inline-block;
-    width: 60%;
-    font-size: 70px;
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
 
-header p{
+header img{
+    border-radius: 50%;
+}
+
+.headimg{
     display: inline-block;
-    width: 60%;
+    width: 25%;
+}
+
+.headwords{
+    display: inline-block;
+    width: 65%;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Chelsea Market', cursive;
+    letter-spacing: 2px;
+    margin: 5%;
+}
+
+h6{
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin: 5%;
+}
+
+header p{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /*couldn't figure this out with box model*/
+}
+
+.button1{
+    background-color:#FF7643;
+}
+
+.button2{
+    background-color: #5ED3EB;
+}
+
+.button3{
+    background-color: #FFCD69;
+}
+
+.description{
+    margin: 2%;
+    padding: 2%;
+    background-color:#DDB9A3;
+    color: white;
+}
+
+.description p{
+    margin-bottom: 2%;
+}
+
+span{
+    font-weight: bold;
+}
+
+.info img{
+    width: 15%;
+}
+
+.info p{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+}
+
+footer .buttons{
+    background-color: #F9E7DC;
+}
+
+.bottomimg{
+    max-height: 225px;
+    overflow: hidden;
 }
